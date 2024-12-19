@@ -1,3 +1,4 @@
+```mermaid
 graph TB
     Client[Client Applications]
     ApiGw[API Gateway]
@@ -41,3 +42,4 @@ graph TB
     Queue --> NotifSvc
     
     NotifSvc --> Queue
+```
